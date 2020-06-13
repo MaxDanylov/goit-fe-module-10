@@ -102,10 +102,6 @@ p {
   --background-color: #95e1d3;
   --placeholder-color: #cccccc;
 }
-/* * {
-  outline: 1px solid #333333;
-} */
-/* HEADER */
 .header_main-page {
   padding-top: 24px;
   background-image: linear-gradient(
@@ -188,7 +184,6 @@ p {
   color: var(--header-text-color);
   transition: color 0.2s linear;
 }
-/* TOOLS */
 .navigation__list-tools {
   display: flex;
 }
@@ -256,7 +251,6 @@ p {
 .learn-btn_header:active {
   background-color: var(--focus-header);
 }
-/* SERVICES */
 .services {
   padding-top: 44px;
 }
@@ -287,7 +281,6 @@ p {
 .secondery-head_services:after {
   margin-bottom: 62px;
 }
-/* SERVICES LIST */
 .services-list {
   display: flex;
   justify-content: space-around;
@@ -325,7 +318,6 @@ p {
 .description_services {
   line-height: 1.5rem;
 }
-/* TEAM */
 .team {
   padding-bottom: 84px;
   border-bottom: 1px solid #e5e5e5;
@@ -339,7 +331,6 @@ p {
   text-align: center;
   line-height: 1.5rem;
 }
-/* TEAM LIST */
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -359,7 +350,6 @@ p {
   text-align: center;
   font-style: italic;
 }
-/* OVERLAY */
 .team-list-item__overlay {
   display: flex;
   justify-content: center;
@@ -420,7 +410,6 @@ p {
 .team-list-item__link:hover .team-list-item__icon {
   fill: var(--header-text-color);
 }
-/* FOOTER */
 .footer {
   padding-top: 8px;
   padding-bottom: 12px;
@@ -443,7 +432,6 @@ p {
 .copyright__name:focus {
   text-decoration: underline;
 }
-/* FORM */
 .contact-form {
   display: flex;
 }
